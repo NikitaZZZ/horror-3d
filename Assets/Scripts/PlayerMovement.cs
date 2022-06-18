@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // private bool ShouldCroch => Input.GetKeyDown(crouchKey) && isGrounded;
-
     [SerializeField] public CharacterController controller;
 
     [SerializeField] public float speed = 12f;
@@ -50,29 +48,4 @@ public class PlayerMovement : MonoBehaviour
         else
             controller.height = 1.6f;
     }
-
-    // private IEnumerator CrochStand()
-    // {
-    //     if (isCrouching && Physics.Raycast(GameObject.Find("Main Camera").transform.position, Vector3.up, 1f))
-    //         yield break;
-
-    //     float timeElapsed = 0;
-    //     float targetHeight = isCrouching ? standingHeight : crouchHeight;
-    //     float currentHeight = controller.height;
-    //     Vector3 targetCenter = isCrouching ? standingCenter : crouchingCenter;
-    //     Vector3 currentCenter = controller.center;
-
-    //     while (timeElapsed < timeToCrouch)
-    //     {
-    //         controller.height = Mathf.Lerp(currentHeight, targetHeight, timeElapsed/timeToCrouch);
-    //         controller.center = Vector3.Lerp(currentCenter, targetCenter, timeElapsed/timeToCrouch);
-    //         timeElapsed += Time.deltaTime;
-    //         yield return null;
-    //     }
-
-    //     controller.height = targetHeight;
-    //     controller.center = targetCenter;
-
-    //     isCrouching = !isCrouching;
-    // }
 }
