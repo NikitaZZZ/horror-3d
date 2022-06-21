@@ -52,7 +52,7 @@ public class EnemyScript : MonoBehaviour
 
         walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
 
-        if (Physics.Raycast(walkPoint, -transform.up, 20f, whatIsGround))
+        if (Physics.Raycast(walkPoint, -transform.up, 30f, whatIsGround))
             walkPointSet = true;
     }
 

@@ -19,6 +19,9 @@ public class PlayerMovement : MonoBehaviour
     private bool isCrouching;
 
     private bool isSprint = false;
+    private bool isCanSprint = true;
+
+    private float stamina = 100f;
 
     void Update()
     {
@@ -30,7 +33,21 @@ public class PlayerMovement : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (stamina >= 100)
+            isCanSprint = true;
+
+        if (isSprint && stamina > 0)
+            stamina -= 0.01f;
+        if (!isSprint && stamina <= 100)
+            stamina += 0.02f;
+
+        if (stamina <= 0) {
+            isCanSprint = false;
+            isSprint = false;
+            speed = 5f;
+        }
+
+        if (isCanSprint && Input.GetKeyDown(KeyCode.LeftShift))
         {
             isSprint = !isSprint;
 
