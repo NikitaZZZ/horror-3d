@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] public CharacterController controller;
 
-    [SerializeField] public float speed = 12f;
+    [SerializeField] public float speed = 5f;
     [SerializeField] public float gravity = -9.81f;
     [SerializeField] public float jumpHeight = 3f;
 
@@ -16,8 +16,9 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 velocity;
     private bool isGrounded;
-
     private bool isCrouching;
+
+    private bool isSprint = false;
 
     void Update()
     {
@@ -28,6 +29,14 @@ public class PlayerMovement : MonoBehaviour
 
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            isSprint = !isSprint;
+
+            if (isSprint) speed = 10f;
+            else speed = 5f;
+        }
 
         Vector3 move = transform.right * x + transform.forward * z;
         controller.Move(move * speed * Time.deltaTime);
