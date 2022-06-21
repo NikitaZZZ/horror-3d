@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public LayerMask groundMask;
     [SerializeField] public float groundDistance = 0.4f;
 
+    [SerializeField] private ValueSystem _healthSystem = new ValueSystem();
+
     private Vector3 velocity;
     private bool isGrounded;
     private bool isCrouching;
@@ -73,5 +75,17 @@ public class PlayerMovement : MonoBehaviour
             controller.height = 0.5f;
         else
             controller.height = 1.6f;
+    }
+
+    private void Start()
+    {
+        _healthSystem.Setup(500);
+
+        Invoke(nameof(AppleDamage), 2f);
+    }
+
+    private void AppleDamage()
+    {
+        _healthSystem.RemoveValue(120);
     }
 }
