@@ -6055,8 +6055,20 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1869839663180387556, guid: a6e8d7a2b6b72e144867b0190da11816, type: 3}
+      propertyPath: m_Drag
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869839663180387556, guid: a6e8d7a2b6b72e144867b0190da11816, type: 3}
       propertyPath: m_Mass
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869839663180387556, guid: a6e8d7a2b6b72e144867b0190da11816, type: 3}
+      propertyPath: m_AngularDrag
+      value: 2.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869839663180387556, guid: a6e8d7a2b6b72e144867b0190da11816, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1869839663180387558, guid: a6e8d7a2b6b72e144867b0190da11816, type: 3}
       propertyPath: m_Layer
@@ -6090,6 +6102,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 403.297
       objectReference: {fileID: 0}
+    - target: {fileID: 1869839663180388123, guid: a6e8d7a2b6b72e144867b0190da11816, type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 6377093872546756114}
     - target: {fileID: 1869839663180388123, guid: a6e8d7a2b6b72e144867b0190da11816, type: 3}
       propertyPath: slider
       value: 
@@ -6220,6 +6236,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6e8d7a2b6b72e144867b0190da11816, type: 3}
+--- !u!54 &6377093872546756114 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 1869839663180387556, guid: a6e8d7a2b6b72e144867b0190da11816, type: 3}
+  m_PrefabInstance: {fileID: 6377093872546756113}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8683591894914919441
 PrefabInstance:
   m_ObjectHideFlags: 0

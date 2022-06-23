@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public LayerMask groundMask;
     [SerializeField] public float groundDistance = 0.4f;
 
+    [SerializeField] public Rigidbody rb;
+
     private Vector3 velocity;
     private bool isGrounded;
     private bool isCrouching;
@@ -25,10 +27,6 @@ public class PlayerMovement : MonoBehaviour
     private float stamina = 100f;
 
     public Slider slider;
-
-    private void updateSlider() 
-    {
-    }
 
     void Update()
     {
@@ -53,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (isSprint && stamina > 0)
         {
-            stamina -= 0.01f;
+            if (x > 0 && z > 0) stamina -= 0.15f;
             slider.value = stamina;
         }
 
