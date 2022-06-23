@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -23,6 +24,12 @@ public class PlayerMovement : MonoBehaviour
 
     private float stamina = 100f;
 
+    public Slider slider;
+
+    private void updateSlider() 
+    {
+    }
+
     void Update()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
@@ -37,9 +44,16 @@ public class PlayerMovement : MonoBehaviour
             isCanSprint = true;
 
         if (isSprint && stamina > 0)
+        {
             stamina -= 0.01f;
+            slider.value = stamina;
+        }
+
         if (!isSprint && stamina <= 100)
+        {
             stamina += 0.02f;
+            slider.value = stamina;
+        }
 
         if (stamina <= 0) {
             isCanSprint = false;
