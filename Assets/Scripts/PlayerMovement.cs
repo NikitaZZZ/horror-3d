@@ -41,7 +41,14 @@ public class PlayerMovement : MonoBehaviour
         float z = Input.GetAxis("Vertical");
 
         if (stamina >= 100)
+        {
             isCanSprint = true;
+            GameObject.Find("Canvas").GetComponent<Canvas>().enabled = false;
+        }
+        
+        if (stamina < 100) {
+            GameObject.Find("Canvas").GetComponent<Canvas>().enabled = true;           
+        }
 
         if (isSprint && stamina > 0)
         {
