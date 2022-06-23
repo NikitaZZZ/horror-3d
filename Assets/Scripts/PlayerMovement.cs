@@ -46,9 +46,10 @@ public class PlayerMovement : MonoBehaviour
             GameObject.Find("Canvas").GetComponent<Canvas>().enabled = false;
         }
         
-        if (stamina < 100) {
+        if (stamina < 100)
             GameObject.Find("Canvas").GetComponent<Canvas>().enabled = true;           
-        }
+
+        if (stamina > 0) isCanSprint = true;
 
         if (isSprint && stamina > 0)
         {
