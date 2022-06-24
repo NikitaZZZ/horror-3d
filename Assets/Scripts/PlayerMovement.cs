@@ -11,14 +11,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public float gravity = -9.81f;
     [SerializeField] public float jumpHeight = 3f;
 
-    [SerializeField] public Transform groundCheck;
-    [SerializeField] public LayerMask groundMask;
-    [SerializeField] public float groundDistance = 0.4f;
-
     [SerializeField] public Rigidbody rb;
 
     private Vector3 velocity;
-    private bool isGrounded;
     private bool isCrouching;
 
     private bool isSprint = false;
@@ -30,8 +25,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-
         if (Input.GetKeyDown(KeyCode.LeftControl))
             HandleCrouch();
 
@@ -82,9 +75,6 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 move = transform.right * x + transform.forward * z;
         controller.Move(move * speed * Time.deltaTime);
-
-        if (Input.GetButtonDown("Jump") && isGrounded)
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
