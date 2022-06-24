@@ -51,8 +51,13 @@ public class PlayerMovement : MonoBehaviour
 
         if (isSprint && stamina > 0)
         {
-            if (x > 0 && z > 0) stamina -= 0.15f;
-            slider.value = stamina;
+            if (x > 0 || z > 0)
+            {
+                stamina -= 0.15f;
+                slider.value = stamina;
+            } else {
+                isSprint = !isSprint;
+            }
         }
 
         if (!isSprint && stamina <= 100)
