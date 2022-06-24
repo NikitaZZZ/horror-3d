@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] public CharacterController controller;
 
-    [SerializeField] public float speed = 5f;
+    [SerializeField] public float speed = 3f;
     [SerializeField] public float gravity = -9.81f;
     [SerializeField] public float jumpHeight = 3f;
 
@@ -22,6 +22,10 @@ public class PlayerMovement : MonoBehaviour
     private float stamina = 100f;
 
     public Slider slider;
+
+    private bool isMoving = false;
+
+    private bool checkKeyPress;
 
     void Update()
     {
