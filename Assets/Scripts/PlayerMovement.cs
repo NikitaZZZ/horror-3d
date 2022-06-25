@@ -278,7 +278,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (footstepTimer <= 0)
         {
-            if (Physics.Raycast(playerCamera.transform.position, Vector3.down, out RaycastHit hit, 3))
+            if (Physics.Raycast(playerCamera.transform.position, Vector3.down, out RaycastHit hit, 10))
             {
                 switch (hit.collider.tag)
                 {
