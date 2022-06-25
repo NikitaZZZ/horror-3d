@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class UI : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI staminaText = default;
+    [SerializeField] private Slider staminaSlider = default;
 
     private void OnEnable()
     {
@@ -19,6 +19,6 @@ public class UI : MonoBehaviour
 
     private void UpdateStamina(float currentStamina)
     {
-        staminaText.text = currentStamina.ToString("00");
+        staminaSlider.value = currentStamina;
     }
 }
