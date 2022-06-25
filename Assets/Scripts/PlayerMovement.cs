@@ -42,8 +42,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float maxStamina = 100;
     [SerializeField] private float staminaUseMultiplier = 5;
     [SerializeField] private float timeBeforeStaminaRegenStarts = 5;
-    [SerializeField] private float staminaValueIncrement = 2;
-    [SerializeField] private float staminaTimeIncrement = 0.1f;
+    [SerializeField] private float staminaValueIncrement = 1f;
+    [SerializeField] private float staminaTimeIncrement = 0.5f;
     private float currentStamina;
     private Coroutine regeneratingStamina;
     public static Action<float> OnStaminaChange;

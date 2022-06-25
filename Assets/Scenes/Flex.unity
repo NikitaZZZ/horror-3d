@@ -2850,6 +2850,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6782736250662893866, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
+      propertyPath: staminaTimeIncrement
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6782736250662893866, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: interactionRayPoint.x
       value: 0.5
       objectReference: {fileID: 0}
@@ -2860,6 +2864,10 @@ PrefabInstance:
     - target: {fileID: 6782736250662893866, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: interactionRayPoint.z
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6782736250662893866, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
+      propertyPath: staminaValueIncrement
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6782736250662893866, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: interactionLayer.m_Bits
