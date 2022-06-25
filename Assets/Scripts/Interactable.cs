@@ -2,9 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interactable : MonoBehaviour
+public abstract class Interactable : MonoBehaviour
 {
-    // public abstract void OnInteract();
-    // public abstract void OnFocus();
-    // public abstract void OnLoseFocus();
+    public virtual void Awake()
+    {
+        gameObject.layer = 7;
+    }
+
+    public abstract void OnInteract();
+    public abstract void OnFocus();
+    public abstract void OnLoseFocus();
 }
