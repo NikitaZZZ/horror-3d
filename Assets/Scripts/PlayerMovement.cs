@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public bool CanMove { get; private set; } = true;
     private bool IsSprinting => canSprint && Input.GetKey(sprintKey);
-    private bool ShouldJump => Input.GetKey(jumpKey) && characterController.isGrounded;
+    private bool ShouldJump => Input.GetKeyDown(jumpKey) && characterController.isGrounded;
     private bool ShouldCrouch => Input.GetKeyDown(crouchKey) && !duringCrouchAnimation && characterController.isGrounded;
 
     [Header("Functional Options")]
@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift;
     [SerializeField] private KeyCode jumpKey = KeyCode.Space;
     [SerializeField] private KeyCode crouchKey = KeyCode.LeftControl;
+    [SerializeField] private KeyCode interactKey = KeyCode.Mouse0;
 
     [Header("Movement Parameters")]
     [SerializeField] private float walkSpeed = 3.0f;
@@ -41,8 +42,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float maxStamina = 100;
     [SerializeField] private float staminaUseMultiplier = 5;
     [SerializeField] private float timeBeforeStaminaRegenStarts = 5;
-    [SerializeField] private float staminaValueIncrement = 2;
-    [SerializeField] private float staminaTimeIncrement = 0.1f;
+    [SerializeField] private float staminaValueIncrement = 1f;
+    [SerializeField] private float staminaTimeIncrement = 0.5f;
     private float currentStamina;
     private Coroutine regeneratingStamina;
     public static Action<float> OnStaminaChange;
@@ -114,8 +115,11 @@ public class PlayerMovement : MonoBehaviour
 
     private float rotationX = 0;
 
+    public static PlayerMovement instance;
+
     void Awake()
     {
+        instance = this;
         playerCamera = GetComponentInChildren<Camera>();
         characterController = GetComponent<CharacterController>();
         defaultYPos = playerCamera.transform.localPosition.y;
@@ -229,12 +233,29 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandleInteractionCheck()
     {
+        if (Physics.Raycast(playerCamera.ViewportPointToRay(interactionRayPoint), out RaycastHit hit, interactionDistance))
+        {
+            if (hit.collider.gameObject.layer == 7 && (currentInteractable == null || hit.collider.gameObject.GetInstanceID() != currentInteractable.GetInstanceID()))
+            {
+                hit.collider.TryGetComponent(out currentInteractable);
 
+                if (currentInteractable)
+                    currentInteractable.OnFocus();
+            }
+            else if (currentInteractable)
+            {
+                currentInteractable.OnLoseFocus();
+                currentInteractable = null;
+            }
+        }
     }
 
     private void HandleInteractionInput()
     {
-
+        if (Input.GetKeyDown(interactKey) && currentInteractable != null && Physics.Raycast(playerCamera.ViewportPointToRay(interactionRayPoint), out RaycastHit hit, interactionDistance, interactionLayer))
+        {
+            currentInteractable.OnInteract();
+        }
     }
 
     private void ApplyFinalMovements()
