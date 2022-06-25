@@ -19,6 +19,11 @@ public class UI : MonoBehaviour
 
     private void UpdateStamina(float currentStamina)
     {
+        if (currentStamina == 100)
+            GameObject.Find("Canvas").GetComponent<Canvas>().enabled = false;
+        else
+            GameObject.Find("Canvas").GetComponent<Canvas>().enabled = true;
+
         staminaSlider.value = currentStamina;
     }
 }
