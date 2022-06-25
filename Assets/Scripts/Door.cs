@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Door : Interactable
 {
@@ -11,6 +12,7 @@ public class Door : Interactable
     public override void OnFocus()
     {
         anim = GetComponent<Animator>();
+        GameObject.Find("press").GetComponent<RawImage>().enabled = true;
     }
 
     public override void OnInteract()
@@ -30,7 +32,7 @@ public class Door : Interactable
 
     public override void OnLoseFocus()
     {
-
+        GameObject.Find("press").GetComponent<RawImage>().enabled = false;
     }
 
     private void Animator_LockInteraction()
