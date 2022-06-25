@@ -2080,7 +2080,7 @@ GameObject:
   - component: {fileID: 237819876}
   - component: {fileID: 237819875}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: NavMesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2114,7 +2114,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 547a3b16c8c23b94183ef5ff1680f2b3, type: 2}
 --- !u!4 &237819876
 Transform:
   m_ObjectHideFlags: 0
@@ -2128,7 +2128,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &239408142
 PrefabInstance:
@@ -2741,6 +2741,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.161
       objectReference: {fileID: 0}
+    - target: {fileID: 6077260905426202616, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
+      propertyPath: m_Height
+      value: 2.2
+      objectReference: {fileID: 0}
     - target: {fileID: 6077260905426202618, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
@@ -2759,7 +2763,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6077260905426202623, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.803289
+      value: 1.5312268
       objectReference: {fileID: 0}
     - target: {fileID: 6077260905426202623, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2767,7 +2771,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6077260905426202623, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.4
+      value: 1.96
       objectReference: {fileID: 0}
     - target: {fileID: 6077260905426202623, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2800,6 +2804,14 @@ PrefabInstance:
     - target: {fileID: 6077260905426202623, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6782736250662893866, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
+      propertyPath: gravity
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6782736250662893866, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
+      propertyPath: jumpForce
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
@@ -7550,7 +7562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 875989708}
   m_Layer: 0
-  m_Name: Pol
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7640,7 +7652,7 @@ Transform:
   - {fileID: 1235797407}
   - {fileID: 948690215}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &876260232
 PrefabInstance:
@@ -8821,17 +8833,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 1309486516299566, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4467757482891228, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4467757482891228, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5675025
+      value: 0.92423457
       objectReference: {fileID: 0}
     - target: {fileID: 4467757482891228, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5675022
+      value: 0.837236
       objectReference: {fileID: 0}
     - target: {fileID: 4467757482891228, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
       propertyPath: m_LocalScale.z
@@ -8839,15 +8855,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4467757482891228, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 113.277
+      value: -4.6
       objectReference: {fileID: 0}
     - target: {fileID: 4467757482891228, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.55
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4467757482891228, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -96.532
+      value: -32.15
       objectReference: {fileID: 0}
     - target: {fileID: 4467757482891228, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8909,6 +8925,14 @@ PrefabInstance:
       propertyPath: walkPointRange
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2702103618089914044, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2702103618089914044, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4474794297509491139, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -8941,7 +8965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 973879033}
   m_Layer: 0
-  m_Name: Potolok
+  m_Name: Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9041,7 +9065,7 @@ Transform:
   - {fileID: 1479395649}
   - {fileID: 645003281}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &974686514 stripped
 Transform:
@@ -9299,7 +9323,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1033574604 stripped
 Transform:
@@ -13930,7 +13954,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1566603789}
   m_Layer: 0
-  m_Name: More
+  m_Name: MicroObjects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14025,7 +14049,7 @@ Transform:
   - {fileID: 2136589478}
   - {fileID: 1582327363}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1567644370
 PrefabInstance:
@@ -14845,7 +14869,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1643335551}
   m_Layer: 0
-  m_Name: Stena
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14916,7 +14940,7 @@ Transform:
   - {fileID: 637010234}
   - {fileID: 1904691809}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1643686523 stripped
 Transform:
@@ -16849,6 +16873,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
   m_PrefabInstance: {fileID: 1883589844}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1889382853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1309486516299566, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
+  m_PrefabInstance: {fileID: 971189657}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1889382861
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889382853}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1790786, y: 3.7634864, z: 3.2856884}
+  m_Center: {x: -0.08954012, y: 1.3817428, z: 0.53589183}
 --- !u!4 &1897817670 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 09edea94305a15149b2ac23692282140, type: 3}

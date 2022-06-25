@@ -9,12 +9,12 @@ public class UI : MonoBehaviour
 
     private void OnEnable()
     {
-        pmn.OnStaminaChange += UpdateStamina;
+        PlayerMovement.OnStaminaChange += UpdateStamina;
     }
 
     private void OnDisable()
     {
-        pmn.OnStaminaChange -= UpdateStamina;
+        PlayerMovement.OnStaminaChange -= UpdateStamina;
     }
 
     private void UpdateStamina(float currentStamina)
