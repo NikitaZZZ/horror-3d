@@ -196,6 +196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_B (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -242,6 +246,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+--- !u!1 &22695830 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1836565636}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &34567927 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1988226050}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &42520616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -303,6 +317,16 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
   m_PrefabInstance: {fileID: 42520616}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &49285536 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 226490640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &56929888 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1934694711}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &57439053
 PrefabInstance:
@@ -974,6 +998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -1139,6 +1167,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
+--- !u!1 &113328803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 114156368}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &114156368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1149,6 +1182,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -1200,6 +1237,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 410932, guid: 731670d05affd0045a25600d2045889f, type: 3}
   m_PrefabInstance: {fileID: 1268141008}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &128421878 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1658318746}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &134154135
 PrefabInstance:
@@ -1635,6 +1677,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
   m_PrefabInstance: {fileID: 177872832}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &180790200 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 1620284851}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &187504822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1702,6 +1749,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d23659395a6ea074f811f86d6a0639dc, type: 3}
   m_PrefabInstance: {fileID: 75624754}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &194489939 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 458799829}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &220119548 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1762173165}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &226490640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1712,6 +1769,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -1763,6 +1824,24 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 226490640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &226490645
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49285536}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
+--- !u!1 &227857008 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 366366242}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &228230748
 PrefabInstance:
@@ -1837,6 +1916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -1898,6 +1981,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -1961,6 +2048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_B (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -2017,6 +2108,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -2601,6 +2696,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
   m_PrefabInstance: {fileID: 303651465}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &310647888 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 236478055}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &314352535
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2774,6 +2874,10 @@ PrefabInstance:
       value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 6077260905426202618, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
+      propertyPath: MinDistance
+      value: 1.12656
+      objectReference: {fileID: 0}
+    - target: {fileID: 6077260905426202618, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
@@ -2803,7 +2907,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6077260905426202623, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.96
+      value: 2.218
       objectReference: {fileID: 0}
     - target: {fileID: 6077260905426202623, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2850,12 +2954,20 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6782736250662893866, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
+      propertyPath: footstepAudioSource
+      value: 
+      objectReference: {fileID: 1536784907}
+    - target: {fileID: 6782736250662893866, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: interactionDistance
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6782736250662893866, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: staminaTimeIncrement
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6782736250662893866, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
+      propertyPath: woodClips.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6782736250662893866, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: interactionRayPoint.x
@@ -2877,6 +2989,10 @@ PrefabInstance:
       propertyPath: interactionLayer.m_Bits
       value: 128
       objectReference: {fileID: 0}
+    - target: {fileID: 6782736250662893866, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
+      propertyPath: woodClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 36bca39a65ab1374589657c498a764a3, type: 3}
     - target: {fileID: 8887156215722456466, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.003
@@ -2948,6 +3064,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4940b4037a83a2b4f8dcadb786f1833d, type: 3}
+--- !u!1 &318711807 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 2001285728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &320379776 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1040201257}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &321103460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3149,6 +3275,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1836565636}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &342138199
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22695830}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &350216319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3274,6 +3413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -3325,6 +3468,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 366366242}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &366366247
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227857008}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &367072433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3517,6 +3673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3563,6 +3723,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+--- !u!1 &396217497 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 237379102}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &396217501
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396217497}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
+--- !u!1 &403130719 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1446820951}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &406672474 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 442594, guid: 24579a71f306fa349abdad24a69e4d08, type: 3}
@@ -3578,6 +3761,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -3703,6 +3890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_B (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
       value: 55
@@ -3749,6 +3940,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+--- !u!1 &418421458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 690118720}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &419966357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3759,6 +3955,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -3821,6 +4021,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -3941,6 +4145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -4059,6 +4267,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
   m_PrefabInstance: {fileID: 1466829493}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &448817308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 389577778}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &457904525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4069,6 +4282,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_Name
       value: Floor_B (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
@@ -4127,6 +4344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4184,6 +4405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -4240,6 +4465,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1934694711}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &459427622
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56929888}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &459778650 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ce73a35450ff20d4ab05c1f0c3cec2dc, type: 3}
@@ -4322,6 +4560,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -4550,6 +4792,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 731670d05affd0045a25600d2045889f, type: 3}
+--- !u!1 &499710414 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1764556582}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &499710418
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499710414}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &508851776
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4611,6 +4871,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 420012, guid: 01311b99708e82145a709f95952e18b6, type: 3}
   m_PrefabInstance: {fileID: 1257544693}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &527863934 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1669299617}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &531954930
 PrefabInstance:
@@ -4741,6 +5006,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -4927,6 +5196,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
   m_PrefabInstance: {fileID: 562214372}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &563492556 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 422890070}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &566371616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5108,6 +5382,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
   m_PrefabInstance: {fileID: 570488409}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &577066319 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 233162355}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &577066323
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577066319}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
+--- !u!1 &583727030 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 1519676185}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &584372597
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5118,6 +5415,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f5507bdcafa59ee4796ef124f9fa7d3c, type: 3}
       propertyPath: m_Name
       value: Floor_C
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f5507bdcafa59ee4796ef124f9fa7d3c, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f5507bdcafa59ee4796ef124f9fa7d3c, type: 3}
       propertyPath: m_RootOrder
@@ -5226,6 +5527,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 410932, guid: 731670d05affd0045a25600d2045889f, type: 3}
   m_PrefabInstance: {fileID: 830962138}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &610215131 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1847902508}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &612718139
 PrefabInstance:
@@ -5350,6 +5656,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 91d652779ec7140488b6b8e360497937, type: 3}
   m_PrefabInstance: {fileID: 614960023}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &616147042 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 438120814}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &623945474
 PrefabInstance:
@@ -5672,6 +5983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -5859,6 +6174,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01311b99708e82145a709f95952e18b6, type: 3}
+--- !u!1 &666461411 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 459305079}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &666461415
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666461411}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &671345473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5921,6 +6254,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
   m_PrefabInstance: {fileID: 671345473}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &671354582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 2140703480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &671354586
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671354582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &672089766
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5994,6 +6345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_B (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -6050,6 +6405,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -6179,6 +6538,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -6418,6 +6781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -6479,6 +6846,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -6784,6 +7155,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 060d000557fda73428e416006e69e7c8, type: 3}
+--- !u!1 &757060126 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 97063254}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &757060130
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757060126}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
+--- !u!1 &761312987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 1918528538}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &770563543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6973,10 +7367,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
   m_PrefabInstance: {fileID: 2001285728}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &786439322
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318711807}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &789300325 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 420012, guid: 01311b99708e82145a709f95952e18b6, type: 3}
   m_PrefabInstance: {fileID: 1867293337}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &792946954 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1063955943}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &794457221 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 1842110060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &796602156 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 649823947}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &796602160
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796602156}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
+--- !u!1 &796824182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1806913013}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &803814618
 PrefabInstance:
@@ -7107,6 +7547,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 458799829}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &810866929
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194489939}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &818422626 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 410932, guid: 731670d05affd0045a25600d2045889f, type: 3}
@@ -7122,6 +7575,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_Name
       value: Floor_B (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
@@ -7231,6 +7688,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 422890070}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &832928391
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563492556}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &839249578 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
@@ -7628,6 +8098,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
   m_PrefabInstance: {fileID: 1918528538}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &874910984
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761312987}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
 --- !u!1 &875989707
 GameObject:
   m_ObjectHideFlags: 0
@@ -7984,6 +8467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -8216,6 +8703,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1040201257}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &903872348
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320379776}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &908373180 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 442594, guid: 24579a71f306fa349abdad24a69e4d08, type: 3}
@@ -8355,6 +8855,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -8536,6 +9040,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
   m_PrefabInstance: {fileID: 1519676185}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &948690219
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583727030}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &950855048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8546,6 +9063,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_Name
       value: Floor_B (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
@@ -8598,6 +9119,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1658318746}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &951503056
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128421878}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &952439946
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8664,6 +9198,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ca7ff24101826a141b95bc27f8d49174, type: 3}
   m_PrefabInstance: {fileID: 300194190}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &960297420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 889095033}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &960728744
 PrefabInstance:
@@ -8733,6 +9272,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -8789,6 +9332,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -9334,6 +9881,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
   m_PrefabInstance: {fileID: 1015609339}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1020683858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 950855048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1020683862
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020683858}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
 --- !u!1 &1031550104
 GameObject:
   m_ObjectHideFlags: 0
@@ -9531,6 +10096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -9588,6 +10157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -9634,6 +10207,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+--- !u!1 &1047680074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1607207653}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1047680078
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047680074}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1049154360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9644,6 +10235,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -9836,6 +10431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -9887,6 +10486,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1063955943}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1063955948
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792946954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &1073517911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
@@ -9902,6 +10514,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -10088,6 +10704,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
   m_PrefabInstance: {fileID: 508851776}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1118739786 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1049154360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1118739790
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118739786}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1122618112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10770,6 +11404,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
   m_PrefabInstance: {fileID: 1842110060}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1208338414
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794457221}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1209425793
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10884,6 +11531,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
+--- !u!1 &1223409026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 415407308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1223409030
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223409026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &1228911849 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
@@ -10975,6 +11640,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: cbcb05563ab6bb046867a0b483b15cd2, type: 3}
+--- !u!65 &1235797411
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235797403}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.893943, y: 5.793956, z: 5.857492}
+  m_Center: {x: 0.0000009536745, y: 2.8920722, z: -0.0000016689305}
 --- !u!1001 &1238576796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11166,6 +11844,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: de3b8c31d809a0442bdf5e22edaf92be, type: 3}
   m_PrefabInstance: {fileID: 1008958031}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1259189563 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1768468554}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1268141008
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11347,6 +12030,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
   m_PrefabInstance: {fileID: 1277683834}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1277995891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 2002564131}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1282543207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11414,6 +12102,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1768468554}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1285481058
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259189563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1290066055
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11559,6 +12260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -11626,6 +12331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -11682,6 +12391,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -11759,6 +12472,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -11885,6 +12602,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce73a35450ff20d4ab05c1f0c3cec2dc, type: 3}
+--- !u!1 &1351707931 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 542227037}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1351707935
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351707931}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1360506459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12128,6 +12863,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 91d652779ec7140488b6b8e360497937, type: 3}
   m_PrefabInstance: {fileID: 1382284279}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1390666583 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1976640125}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1392485157
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12262,6 +13002,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 389577778}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1414254925
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448817308}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1414328557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12474,6 +13227,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_B (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -12530,6 +13287,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -12851,6 +13612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -12902,6 +13667,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1446820951}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1446820956
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403130719}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &1447019972 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 410932, guid: 731670d05affd0045a25600d2045889f, type: 3}
@@ -13168,6 +13946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_B (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
       value: 68
@@ -13229,6 +14011,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -13348,6 +14134,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 8b03b78473aa7d8438af631387982438, type: 3}
   m_PrefabInstance: {fileID: 1458296632}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1491843694 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 463809691}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1491843698
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491843694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &1501214025 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b93fbb2e189612641be84b2521736734, type: 3}
@@ -13414,6 +14218,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 91d652779ec7140488b6b8e360497937, type: 3}
   m_PrefabInstance: {fileID: 1503781174}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1505239371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 2097814964}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1510230911
 PrefabInstance:
@@ -13612,6 +14421,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_B
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -13662,6 +14475,29 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 934818208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1524125487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 677043977}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1524125491
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524125487}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
+--- !u!1 &1527308491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: f5507bdcafa59ee4796ef124f9fa7d3c, type: 3}
+  m_PrefabInstance: {fileID: 584372597}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1533305943
 PrefabInstance:
@@ -13730,6 +14566,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6077260905426202623, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
   m_PrefabInstance: {fileID: 318122436}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1536784907 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6077260905426202618, guid: ce34a9b4b9d75594587a757218a69b33, type: 3}
+  m_PrefabInstance: {fileID: 318122436}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1542678726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13791,6 +14632,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 91d652779ec7140488b6b8e360497937, type: 3}
   m_PrefabInstance: {fileID: 1542678726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1543882968 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1333340026}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1549759814
 PrefabInstance:
@@ -14020,6 +14866,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf6bc68452c25054fb498f2ea44db0b9, type: 3}
+--- !u!1 &1557352356 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1582592679}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1562270017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 408914653}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1562270021
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562270017}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
+--- !u!1 &1566559693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 681925867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1566559697
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566559693}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1 &1566603788
 GameObject:
   m_ObjectHideFlags: 0
@@ -14336,6 +15223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -14386,6 +15277,42 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1582592679}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1582592684
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557352356}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
+--- !u!1 &1592759113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 721429210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1592759117
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592759113}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
+--- !u!1 &1596061196 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1864471225}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1596687165 stripped
 Transform:
@@ -14527,6 +15454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -14578,6 +15509,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
   m_PrefabInstance: {fileID: 80859504}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1616782100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1311356378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1616782104
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616782100}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1619069121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14713,6 +15662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_B (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -14816,6 +15769,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
+--- !u!1 &1620384810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 962136434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1620384814
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620384810}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1626337449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15095,6 +16066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -15141,6 +16116,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+--- !u!1 &1658730532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 1466829493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1658730536
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658730532}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &1662294987 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
@@ -15151,6 +16144,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
   m_PrefabInstance: {fileID: 236478055}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1666571169
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310647888}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1669299617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15161,6 +16167,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -15213,6 +16223,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1669299617}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1669299622
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527863934}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1678073117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15452,6 +16475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stairs_C
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ad0f936da1b94df47a67bc558a9ccff0, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ad0f936da1b94df47a67bc558a9ccff0, type: 3}
       propertyPath: m_RootOrder
       value: 69
@@ -15515,6 +16542,24 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 6428864, guid: ad0f936da1b94df47a67bc558a9ccff0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ad0f936da1b94df47a67bc558a9ccff0, type: 3}
+--- !u!1 &1687254594 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 230175201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1687254598
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687254594}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1691117912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16013,6 +17058,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24579a71f306fa349abdad24a69e4d08, type: 3}
+--- !u!1 &1761787965 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 419966357}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1761787969
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761787965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1762173165
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16023,6 +17086,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -16075,6 +17142,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1762173165}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1762173170
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220119548}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1764556582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16085,6 +17165,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -16147,6 +17231,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -16251,6 +17339,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 731670d05affd0045a25600d2045889f, type: 3}
+--- !u!1 &1770850143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 963205710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1770850147
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770850143}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1787178610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16381,6 +17487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 41
@@ -16432,11 +17542,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1806913013}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1806913018
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796824182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &1822160760 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 2002564131}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1822160764
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277995891}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
+--- !u!1 &1829270006 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 457904525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1829270010
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829270006}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &1829408326 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: db376d84db5f60748b98e9a47b6770ab, type: 3}
@@ -16457,6 +17611,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -16514,6 +17672,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_Name
       value: Floor_B (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
@@ -16634,6 +17796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 48
@@ -16685,6 +17851,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1847902508}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1847902513
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610215131}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &1859839215 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400008, guid: 85c5775d75be5dc4396c136e3f6fe201, type: 3}
@@ -16710,6 +17889,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -16762,11 +17945,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1864471225}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1864471230
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596061196}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &1867260731 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f5507bdcafa59ee4796ef124f9fa7d3c, type: 3}
   m_PrefabInstance: {fileID: 584372597}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1867260735
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527308491}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.800997, y: 4.406787, z: 5.9016323}
+  m_Center: {x: -0.033087015, y: -2.2033935, z: 0.015961647}
 --- !u!1001 &1867293337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16834,6 +18043,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_Name
       value: Floor_B (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
@@ -16961,6 +18174,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1790786, y: 3.7634864, z: 3.2856884}
   m_Center: {x: -0.08954012, y: 1.3817428, z: 0.53589183}
+--- !u!1 &1894669203 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 934818208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1894669207
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894669203}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &1897817670 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 09edea94305a15149b2ac23692282140, type: 3}
@@ -17038,6 +18269,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 114156368}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1905936605
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113328803}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &1905996208 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 420012, guid: 01311b99708e82145a709f95952e18b6, type: 3}
@@ -17110,6 +18354,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1333340026}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1915669923
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543882968}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1918528538
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17120,6 +18377,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_Name
       value: Floor_B (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
@@ -17172,6 +18433,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 690118720}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1923681560
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418421458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &1930901512 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 420012, guid: 01311b99708e82145a709f95952e18b6, type: 3}
@@ -17187,6 +18461,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -17348,6 +18626,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 731670d05affd0045a25600d2045889f, type: 3}
+--- !u!1 &1962260672 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1321704751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1962260676
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962260672}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &1962866001 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
@@ -17420,6 +18716,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
   m_PrefabInstance: {fileID: 1620284851}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1968459293
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180790200}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1969467885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17493,6 +18802,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -17544,6 +18857,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1976640125}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1976640130
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390666583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1979285671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17606,6 +18932,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 91d652779ec7140488b6b8e360497937, type: 3}
   m_PrefabInstance: {fileID: 1979285671}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1980871099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1424443862}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1980871103
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980871099}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
+--- !u!1 &1984167993 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 1872988403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1984167997
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984167993}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1988226050
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17616,6 +18978,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
@@ -17668,6 +19034,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 1988226050}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1988226055
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34567927}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &1997918559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17803,6 +19182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_B (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -17860,6 +19243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -17911,6 +19298,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 438120814}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2011351250
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616147042}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
+--- !u!1 &2011501001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1469300954}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2011501005
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011501001}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &2015394804
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17978,6 +19396,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 889095033}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2018718230
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960297420}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!1001 &2032468534
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18035,21 +19466,124 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24579a71f306fa349abdad24a69e4d08, type: 3}
+--- !u!1 &2033130581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 821866538}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2033130585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033130581}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
+--- !u!1 &2050967561 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 1424300881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2050967565
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050967561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &2051119414 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
   m_PrefabInstance: {fileID: 1620364366}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2055984651 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1306912954}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2055984655
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055984651}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &2067153192 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
   m_PrefabInstance: {fileID: 2097814964}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2067153196
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505239371}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
+--- !u!1 &2067632588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1043168795}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2067632592
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067632588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &2068825904 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 410932, guid: 731670d05affd0045a25600d2045889f, type: 3}
   m_PrefabInstance: {fileID: 314352535}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2071146118 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c8fcb67cb3d648b4b87d500ece16b15f, type: 3}
+  m_PrefabInstance: {fileID: 21862066}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2071146122
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071146118}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0.00000023841858, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &2083422520 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 420012, guid: 01311b99708e82145a709f95952e18b6, type: 3}
@@ -18247,6 +19781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_A (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -18427,6 +19965,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 410932, guid: 731670d05affd0045a25600d2045889f, type: 3}
   m_PrefabInstance: {fileID: 2126656874}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2132233775 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 1075207597}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2132233779
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132233775}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
+--- !u!1 &2135020580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+  m_PrefabInstance: {fileID: 721240536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2135020584
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135020580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8001404, y: 0.5921345, z: 5.856903}
+  m_Center: {x: 0, y: -0.29606724, z: 0.0000019073486}
 --- !u!4 &2136589478 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: db376d84db5f60748b98e9a47b6770ab, type: 3}
@@ -18442,6 +20016,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_Name
       value: Floor_A (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2f96746c6005c64888263f64272a556, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/WOOD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2f96746c6005c64888263f64272a556, type: 3}
       propertyPath: m_RootOrder
