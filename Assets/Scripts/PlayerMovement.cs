@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private bool WillSlideOnSlopes = true;
     [SerializeField] private bool useFootsteps = true;
     [SerializeField] private bool useStamina = true;
+    [SerializeField] private bool canInteract = true;
 
     [Header("Controls")]
     [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift;
@@ -61,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Headbob Parameters")]
     [SerializeField] private float walkBobSpeed = 14f;
-    [SerializeField] private float walkBobAmount = 0.05f;
+    [SerializeField] private float walkBobAmount = 0.02f;
     [SerializeField] private float sprintBobSpeed = 18f;
     [SerializeField] private float sprintBobAmount = 0.11f;
     [SerializeField] private float crouchBobSpeed = 8f;
@@ -98,6 +99,12 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
+
+    [Header("Interaction")]
+    [SerializeField] private Vector3 interactionRayPoint = default;
+    [SerializeField] private float interactionDistance = default;
+    [SerializeField] private LayerMask interactionLayer = default;
+    private Interactable currentInteractable;
 
     private Camera playerCamera;
     private CharacterController characterController;
@@ -139,6 +146,12 @@ public class PlayerMovement : MonoBehaviour
 
             if (useStamina)
                 HandleStamina();
+
+            if (canInteract)
+            {
+                HandleInteractionCheck();
+                HandleInteractionInput();
+            }
 
             ApplyFinalMovements();
         }
@@ -212,6 +225,16 @@ public class PlayerMovement : MonoBehaviour
         {
             regeneratingStamina = StartCoroutine(RegenerateStamina());
         }
+    }
+
+    private void HandleInteractionCheck()
+    {
+
+    }
+
+    private void HandleInteractionInput()
+    {
+
     }
 
     private void ApplyFinalMovements()
