@@ -1193,7 +1193,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3340753523714837967}
   - component: {fileID: 3340753523714837952}
+  - component: {fileID: 1308229427451474138}
   - component: {fileID: 3340753523714837953}
+  - component: {fileID: 7171418535014251434}
   - component: {fileID: 3340753523714837954}
   m_Layer: 0
   m_Name: Player
@@ -1238,6 +1240,20 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: -0.16, y: 2.01, z: 0}
+--- !u!114 &1308229427451474138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3340753523714837966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11d2e84a8409076428533f4966f854b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFull: 
+  slots: []
 --- !u!114 &3340753523714837953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1299,6 +1315,26 @@ MonoBehaviour:
   interactionLayer:
     serializedVersion: 2
     m_Bits: 128
+--- !u!114 &7171418535014251434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3340753523714837966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5e8187b18c06d4c8296502f4244b8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tasks:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  currentTask: {fileID: 0}
+  objectForEndTask: []
 --- !u!82 &3340753523714837954
 AudioSource:
   m_ObjectHideFlags: 0
