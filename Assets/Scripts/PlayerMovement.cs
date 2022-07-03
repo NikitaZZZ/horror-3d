@@ -80,6 +80,9 @@ public class PlayerMovement : MonoBehaviour
     private float footstepTimer = 0;
     private float GetCurrentOffset => isCrouching ? baseStepSpeed * crouchStepMultipler : IsSprinting ? baseStepSpeed * sprintStepMultipler : baseStepSpeed;
 
+    [Header("Animation")]
+    [SerializeField] private Animator playerAnimator = default;
+
     // SLIDING PARAMETERS
 
     private Vector3 hitPointNormal;
@@ -157,6 +160,12 @@ public class PlayerMovement : MonoBehaviour
                 HandleInteractionInput();
             }
 
+            if (currentInput.x > 1 && currentInput.x != 10) {
+                playerAnimator.SetBool("isWalk", true);
+            } else {
+                playerAnimator.SetBool("isWalk", false);
+            }
+
             ApplyFinalMovements();
         }
     }
@@ -208,6 +217,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (IsSprinting && currentInput != Vector2.zero)
         {
+            playerAnimator.SetBool("isSprint", true);
             if (regeneratingStamina != null)
             {
                 StopCoroutine(regeneratingStamina);
@@ -227,6 +237,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (!IsSprinting && currentStamina < maxStamina && regeneratingStamina == null)
         {
+            playerAnimator.SetBool("isSprint", false);
             regeneratingStamina = StartCoroutine(RegenerateStamina());
         }
     }
