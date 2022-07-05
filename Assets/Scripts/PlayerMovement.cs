@@ -341,7 +341,7 @@ public class PlayerMovement : MonoBehaviour
 
         while(currentStamina < maxStamina)
         {
-            if (currentStamina > 0)
+            if (currentStamina > 20)
                 canSprint = true;
             
             currentStamina += staminaValueIncrement;

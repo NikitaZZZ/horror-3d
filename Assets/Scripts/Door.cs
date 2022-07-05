@@ -12,7 +12,6 @@ public class Door : Interactable
     public override void OnFocus()
     {
         anim = GetComponent<Animator>();
-        GameObject.Find("press").GetComponent<RawImage>().enabled = true;
     }
 
     public override void OnInteract()
@@ -30,10 +29,7 @@ public class Door : Interactable
         }
     }
 
-    public override void OnLoseFocus()
-    {
-        GameObject.Find("press").GetComponent<RawImage>().enabled = false;
-    }
+    public override void OnLoseFocus() { }
 
     private void Animator_LockInteraction()
     {

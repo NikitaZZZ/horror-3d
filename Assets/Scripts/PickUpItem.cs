@@ -6,6 +6,7 @@ public class PickUpItem : MonoBehaviour
 {
     private Inventory inventory;
     public GameObject slotButton;
+    public int numberItem;
 
     private void Start()
     {
@@ -16,14 +17,11 @@ public class PickUpItem : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            for (int i = 0; i < inventory.slots.Length; i++)
+            if (!inventory.isFull[numberItem])
             {
-              if (!inventory.isFull[i])
-              {
-                inventory.isFull[i] = true;
-                Instantiate(slotButton, inventory.slots[i].transform);
-                Destroy(gameObject);
-              }
+              inventory.isFull[numberItem] = true;
+              Instantiate(slotButton, inventory.slots[numberItem].transform);
+              Destroy(gameObject);
             }
         }
     }
