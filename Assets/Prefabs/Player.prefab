@@ -152,14 +152,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 158754865804077659}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: 3.482, z: 0.315}
+  m_LocalRotation: {x: -0, y: -0, z: 9.926168e-24, w: 1}
+  m_LocalPosition: {x: 0.009999886, y: 3.482, z: 0.31499973}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7503105261563850220}
   m_Father: {fileID: 6224755535681232268}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &158754865804077656
 Camera:
@@ -7542,8 +7542,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 158754865804077658}
   - {fileID: 5419579760398632630}
+  - {fileID: 158754865804077658}
   - {fileID: 5902107295981327570}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -7636,6 +7636,7 @@ MonoBehaviour:
   footstepAudioSource: {fileID: 6224755535681232257}
   woodClips:
   - {fileID: 8300000, guid: 36bca39a65ab1374589657c498a764a3, type: 3}
+  playerAnimator: {fileID: 0}
   interactionRayPoint: {x: 0.5, y: 0.5, z: 0.5}
   interactionDistance: 4
   interactionLayer:
@@ -7766,6 +7767,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5902107295981327570}
+  - component: {fileID: 4202232317968304230}
   m_Layer: 0
   m_Name: Material
   m_TagString: Untagged
@@ -7793,6 +7795,26 @@ Transform:
   m_Father: {fileID: 6224755535681232268}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &4202232317968304230
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6531257382448991848}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9ea93bb379eee9647b74c06aa0a1d7c9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6704364921727303721
 GameObject:
   m_ObjectHideFlags: 0
@@ -7955,7 +7977,7 @@ RectTransform:
   m_Children:
   - {fileID: 8694852172655574564}
   m_Father: {fileID: 6224755535681232268}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
