@@ -109700,16 +109700,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6224755535681232257, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
       propertyPath: Loop
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6224755535681232257, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6224755535681232258, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
+      propertyPath: baseStepSpeed
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6224755535681232258, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
       propertyPath: playerAnimator
       value: 
       objectReference: {fileID: 6224755534840775596}
+    - target: {fileID: 6224755535681232258, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
+      propertyPath: crouchStepMultipler
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6224755535681232258, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
+      propertyPath: sprintStepMultipler
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6224755535681232258, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
+      propertyPath: woodClips.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6224755535681232258, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
+      propertyPath: woodClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8f97b77cc2a652b4abd1621434ba968c, type: 3}
     - target: {fileID: 6224755535681232268, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -109720,7 +109740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6224755535681232268, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.21
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 6224755535681232268, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
       propertyPath: m_LocalPosition.z
@@ -109926,21 +109946,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8721165221552055390, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
-      propertyPath: holdParent
-      value: 
-      objectReference: {fileID: 6224755534840775597}
-    m_RemovedComponents:
-    - {fileID: 8721165221552055390, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
 --- !u!95 &6224755534840775596 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 4202232317968304230, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
-  m_PrefabInstance: {fileID: 6224755534840775595}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &6224755534840775597 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6682708089635452522, guid: a745aa47f9908cb4fb5632dbe54b2f67, type: 3}
   m_PrefabInstance: {fileID: 6224755534840775595}
   m_PrefabAsset: {fileID: 0}
 --- !u!20 &6224755534840775598 stripped

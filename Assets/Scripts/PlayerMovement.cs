@@ -77,6 +77,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float sprintStepMultipler = 0.6f;
     [SerializeField] private AudioSource footstepAudioSource = default;
     [SerializeField] private AudioClip[] woodClips = default;
+    [SerializeField] private int indexSound = 0;
     private float footstepTimer = 0;
     private float GetCurrentOffset => isCrouching ? baseStepSpeed * crouchStepMultipler : IsSprinting ? baseStepSpeed * sprintStepMultipler : baseStepSpeed;
 
@@ -294,7 +295,8 @@ public class PlayerMovement : MonoBehaviour
                 switch (hit.collider.tag)
                 {
                     case "Footsteps/WOOD":
-                        footstepAudioSource.PlayOneShot(woodClips[UnityEngine.Random.Range(0, woodClips.Length - 1)]);
+                        indexSound = indexSound == 1 ? 0 : 1;
+                        footstepAudioSource.PlayOneShot(woodClips[indexSound]);
                         break;
                     default:
                         break;
