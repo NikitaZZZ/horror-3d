@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PickUpItem : MonoBehaviour
 {
     private Inventory inventory;
-    public GameObject slotButton;
     public int numberItem;
 
     private void Start()
@@ -20,7 +20,7 @@ public class PickUpItem : MonoBehaviour
             if (!inventory.isFull[numberItem])
             {
               inventory.isFull[numberItem] = true;
-              Instantiate(slotButton, inventory.slots[numberItem].transform);
+              inventory.slots[numberItem].GetComponent<Image>().enabled = true;
               Destroy(gameObject);
             }
         }
