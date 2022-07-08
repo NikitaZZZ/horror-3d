@@ -7651,7 +7651,6 @@ GameObject:
   - component: {fileID: 6224755535681232259}
   - component: {fileID: 7645344390431400089}
   - component: {fileID: 6224755535681232258}
-  - component: {fileID: 8721165221552055390}
   - component: {fileID: 1998336706723998697}
   - component: {fileID: 6224755535681232257}
   m_Layer: 0
@@ -7767,27 +7766,13 @@ MonoBehaviour:
   footstepAudioSource: {fileID: 6224755535681232257}
   woodClips:
   - {fileID: 8300000, guid: 36bca39a65ab1374589657c498a764a3, type: 3}
+  indexSound: 0
   playerAnimator: {fileID: 0}
   interactionRayPoint: {x: 0.5, y: 0.5, z: 0.5}
   interactionDistance: 4
   interactionLayer:
     serializedVersion: 2
     m_Bits: 128
---- !u!114 &8721165221552055390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6224755535681232269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 106518d7d052a4d488e97b4230dddcf9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickUpRange: 5
-  moveForce: 250
-  holdParent: {fileID: 0}
 --- !u!114 &1998336706723998697
 MonoBehaviour:
   m_ObjectHideFlags: 0
