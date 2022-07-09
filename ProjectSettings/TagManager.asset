@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Footsteps/WOOD
+  - fire
   layers:
   - Default
   - TransparentFX

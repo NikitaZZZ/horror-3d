@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
+using TMPro;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -37,6 +38,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField, Range(1, 10)] private float lookSpeedY = 2.0f;
     [SerializeField, Range(1, 180)] private float upperLookLimit = 80.0f;
     [SerializeField, Range(1, 180)] private float lowerLookLimit = 80.0f;
+
+    [Header("Health Parameters")]
+    [SerializeField] private float maxHealth = 100;
+    [SerializeField] private TextMeshProUGUI healthText = default;
+    public float currentHealth;
 
     [Header("Statmina Parameters")]
     [SerializeField] private float maxStamina = 100;
@@ -128,6 +134,7 @@ public class PlayerMovement : MonoBehaviour
         characterController = GetComponent<CharacterController>();
         defaultYPos = playerCamera.transform.localPosition.y;
         currentStamina = maxStamina;
+        currentHealth = maxHealth;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
@@ -270,6 +277,27 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void UpdateHealth(float currentHealth)
+    {
+        healthText.text = currentHealth.ToString("00");
+    }
+
+    public void ApplyDamage(float dmg)
+    {
+        currentHealth -= dmg;
+        UpdateHealth(currentHealth);
+
+        if (currentHealth <= 0)
+            KillPlayer();
+    }
+
+    private void KillPlayer() 
+    {
+        currentHealth = 0;
+
+        print("DEAD");
+    } 
+
     private void ApplyFinalMovements()
     {
         if (!characterController.isGrounded)
@@ -357,5 +385,11 @@ public class PlayerMovement : MonoBehaviour
         }
 
         regeneratingStamina = null;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("fire"))
+            ApplyDamage(15);
     }
 }
