@@ -8,6 +8,16 @@ public class UI : MonoBehaviour
 {
     [SerializeField] private Slider staminaSlider = default;
 
+    private void OnEnable()
+    {
+        PlayerMovement.OnStaminaChange += UpdateStamina;
+    }
+    
+    private void OnDisable()
+    {
+        PlayerMovement.OnStaminaChange -= UpdateStamina;
+    }
+
     private void UpdateStamina(float currentStamina)
     {
         if (currentStamina == 100)
