@@ -13,11 +13,11 @@ public class Quest : MonoBehaviour
     private int current_task = 0; 
 
     void OnTriggerEnter(Collider obj) {
-        if (obj.GetComponent<Collider>().name == objectForEndTask[current_task].name)
-        {
-            current_task += 1;
-            UpdateTask();
-        }
+        // if (obj.GetComponent<Collider>().name == objectForEndTask[current_task].name)
+        // {
+        //     current_task += 1;
+        //     UpdateTask();
+        // }
     }
 
     private void UpdateTask()
