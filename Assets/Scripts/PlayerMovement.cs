@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 using TMPro;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -41,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Health Parameters")]
     [SerializeField] private float maxHealth = 100;
-    [SerializeField] private TextMeshProUGUI healthText = default;
+    [SerializeField] private Slider healthSlider = default;
     public float currentHealth;
 
     [Header("Statmina Parameters")]
@@ -277,15 +278,10 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void UpdateHealth(float currentHealth)
-    {
-        healthText.text = currentHealth.ToString("00");
-    }
-
     public void ApplyDamage(float dmg)
     {
         currentHealth -= dmg;
-        UpdateHealth(currentHealth);
+        healthSlider.value = currentHealth / 100;
 
         if (currentHealth <= 0)
             KillPlayer();
@@ -383,6 +379,8 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("fire"))
+        {
             ApplyDamage(15);
+        }
     }
 }
