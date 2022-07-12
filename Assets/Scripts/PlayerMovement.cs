@@ -320,15 +320,8 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Physics.Raycast(playerCamera.transform.position, Vector3.down, out RaycastHit hit, 10))
             {
-                switch (hit.collider.tag)
-                {
-                    case "Footsteps/WOOD":
-                        indexSound = indexSound == 1 ? 0 : 1;
-                        footstepAudioSource.PlayOneShot(woodClips[indexSound]);
-                        break;
-                    default:
-                        break;
-                }
+                indexSound = indexSound == 1 ? 0 : 1;
+                footstepAudioSource.PlayOneShot(woodClips[indexSound]);
             }
 
             footstepTimer = GetCurrentOffset;
