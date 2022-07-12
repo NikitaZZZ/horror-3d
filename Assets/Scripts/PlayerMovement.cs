@@ -82,11 +82,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float baseStepSpeed = 0.5f;
     [SerializeField] private float crouchStepMultipler = 1.5f;
     [SerializeField] private float sprintStepMultipler = 0.6f;
-    [SerializeField] private AudioSource footstepAudioSource = default;
+    [SerializeField] private AudioSource playerAudioSource = default;
     [SerializeField] private AudioClip[] woodClips = default;
     [SerializeField] private int indexSound = 0;
     private float footstepTimer = 0;
     private float GetCurrentOffset => isCrouching ? baseStepSpeed * crouchStepMultipler : IsSprinting ? baseStepSpeed * sprintStepMultipler : baseStepSpeed;
+
+    [Header("Jumping Pararmeters")]
+    [SerializeField] private AudioClip jumpClip = default;
 
     [Header("Animation")]
     [SerializeField] private Animator playerAnimator = default;
@@ -199,7 +202,10 @@ public class PlayerMovement : MonoBehaviour
     private void HandleJump()
     {
         if (ShouldJump)
+        {
             moveDirection.y = jumpForce;
+            playerAudioSource.PlayOneShot(jumpClip);
+        }
     }
 
     private void HandleCrouch()
@@ -317,7 +323,7 @@ public class PlayerMovement : MonoBehaviour
             if (Physics.Raycast(playerCamera.transform.position, Vector3.down, out RaycastHit hit, 10))
             {
                 indexSound = indexSound == 1 ? 0 : 1;
-                footstepAudioSource.PlayOneShot(woodClips[indexSound]);
+                playerAudioSource.PlayOneShot(woodClips[indexSound]);
             }
 
             footstepTimer = GetCurrentOffset;
